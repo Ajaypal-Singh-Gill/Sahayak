@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "213979328033",
+    "firebase_url": "https://sahayak-a6d61.firebaseio.com",
+    "project_id": "sahayak-a6d61",
+    "storage_bucket": "sahayak-a6d61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213979328033:android:65fb66956df7cb3ab57d60",
+        "android_client_info": {
+          "package_name": "com.gajab.sahayak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213979328033-dfmmonmf6nqpqspqmsopjeevjpk8iobl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gajab.sahayak",
+            "certificate_hash": "6888fa3a0871e28583afd3abb2cc3ed09987fba9"
+          }
+        },
+        {
+          "client_id": "213979328033-k4ee7arjgactl561l2luhgrs40kktf4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzY-Fq1jkxsKDUHyn8dOG5lywu_7Xo42E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213979328033-k4ee7arjgactl561l2luhgrs40kktf4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

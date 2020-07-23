@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Sahayak</string>
+    <string name="donee">Donee</string>
+    <string name="donor">Donor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="facebook_app_id">284256936324723</string>
+    <string name="fb_login_protocol_scheme">fb284256936324723</string>
 </resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSecondary"
+    tools:context=".FragmentDoneeSignIn">
+
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal|center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donee Sign-In"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="23dp"
+                android:layout_centerHorizontal="true"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDoneeSignInUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/etStyle"
+                android:layout_below="@id/textView"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietDoneeSignInUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/donee"
+                    android:ems="10"
+                    android:drawableStart="@drawable/ic_username"
+                    android:hint="UserName"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDoneeSignInPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/etStyle"
+                android:layout_below="@id/tilDoneeSignInUsername"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietDoneeSignInPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/donee"
+                    android:ems="10"
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="Password"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/btnDoneeSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tilDoneeSignInPassword"
+                android:background="@drawable/bg_btn_sign_in"
+                android:textColor="@color/colorSecondaryDark"
+                android:text="Sign-In"/>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_below="@id/btnDoneeSignIn"/>
+        </RelativeLayout>
+</FrameLayout>
