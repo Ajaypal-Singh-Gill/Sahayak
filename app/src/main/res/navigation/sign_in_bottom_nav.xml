@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_in_bottom_nav"
+    app:startDestination="@id/fragmentDonorSignIn">
+
+    <fragment
+        android:id="@+id/fragmentDoneeSignIn"
+        android:name="com.gajab.sahayak.FragmentDoneeSignIn"
+        android:label="fragment_donee_sign_in"
+        tools:layout="@layout/fragment_donee_sign_in" />
+    <fragment
+        android:id="@+id/fragmentDonorSignIn"
+        android:name="com.gajab.sahayak.FragmentDonorSignIn"
+        android:label="fragment_donor_sign_in"
+        tools:layout="@layout/fragment_donor_sign_in" />
+</navigation>
